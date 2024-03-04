@@ -1,0 +1,260 @@
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: 49% 49%;
+    grid-column: span 2;
+}
+.logo{
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: 'DM Sans';
+    font-size: 180%;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+a{
+    color: #181717;
+    text-decoration: none;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    font-family: 'DM Sans';
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.osnov{
+    margin-right: 70%;
+    margin-left: 10%;
+    margin-top: 16%;
+    font-family: 'DM Sans';
+    font-size: 60px;
+    line-height: 97.2%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+.str{
+    margin-left: 11%;
+    margin-top: 3%;
+    font-size: 60px;
+}
+.osnov2{
+    margin-top: -18%;
+    margin-left: 45%;
+    margin-right: 15%;
+    font-family: 'DM Sans';
+    font-size: 27px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+.prj1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.nazvanie01{
+    margin-left: 10%;
+    margin-top: 13%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.opisanie01{
+    margin-right: 68%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.podopisanie01{
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+.link01{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+}
+.pryamoug01{
+    aspect-ratio: 16/9;
+    background-repeat: no-repeat;
+    margin-top: -25%;
+    margin-left: 45%;
+    background-image: url("https://i.postimg.cc/cCNc2Wqx/goblin.jpg");
+}
+.razdel01{
+    width: 78%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.prj12{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.nazvanie02{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.opisanie02{
+    margin-right: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.podopisanie02{
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+.link02{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+}
+.pryamoug02{
+    width: 630px;
+    height: 330px;
+    margin-top: -30%;
+    margin-left: 45%;
+    background-image: url("https://i.postimg.cc/5NDr16hg/lady.jpg");
+}
+.razdel02{
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.prj13{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.nazvanie03{
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.opisanie03{
+    margin-right: 67%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 122%;
+    color: #181717;
+}
+.podopisanie03{
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-top: 2%;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    color: #606060;
+}
+.link03{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 122%;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #181717;
+}
+.pryamoug03{
+    width: 630px;
+    height: 330px;
+    margin-top: -30%;
+    margin-left: 45%;
+    background-image: url("https://i.postimg.cc/3J9wcQz3/kotyata.jpg");
+}
+.razdel03{
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.foot{
+    width:100%;
+    margin-left: 10%;
+    margin-top: 14%;
+    font-family: 'DM Sans';
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+.div2{
+    width: 100%;
+    display: grid;
+    margin-top: 14%;
+    grid-template-columns: 35% 35% 15%;
+    grid-column: span 2;
+    font-family: 'DM Sans';
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
